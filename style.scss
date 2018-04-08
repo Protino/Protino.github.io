@@ -242,6 +242,7 @@ nav {
 }
 
 .post {
+  margin-top: 5%;
   blockquote {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
@@ -249,6 +250,27 @@ nav {
     color: $gray;
     font-size: 22px;
     font-style: italic;
+  }
+
+  .header{
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
+  .title{
+    font-weight: lighter;
+    font-size: xx-large;
+    grid-column-end: 3;
+    grid-column-start: 1;
+  }
+
+  .date{
+    font-style: italic;
+    font-size: small;
+    display: grid;
+    align-items: center;
+    justify-content: right;
+    color: #424242;
   }
 
   .comments {
